@@ -1,0 +1,47 @@
+#galeria .container {
+    padding-top: 100vw;
+}
+
+#galeria * {
+    box-sizing: border-box;
+    padding-top: 100vw;
+
+}
+
+#galeria .row {
+    display: flex;
+    padding-top: 5vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    flex-wrap: wrap;
+}
+
+#galeria .column {
+    flex: 25%;
+    padding: 1vw;
+}
+
+#galeria img {
+    width: 100%;
+}
+
+.column img {
+    margin-top: 1vw;
+}
+
+@media (max-width:660px) {
+    #galeria .column {
+        flex: 100%;
+        padding: 1vw;
+    }
+    .row {
+        padding: 1vw;
+    }
+    #section1 {
+        height: 150vw;
+    }
+}
+
+#galeria img:hover {
+    border: 5px solid rgba(255, 255, 255, 0.37);
+}

@@ -1,0 +1,7 @@
+.parrallax img{
+    height: 550px;
+    background-position:50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
