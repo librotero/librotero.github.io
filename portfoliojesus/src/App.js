@@ -7,13 +7,10 @@ import Work from  "./Componenetes/Work";
 function App() {
   return (
     <div className="App">
-      <nav>
-      <Nav />
-      </nav>
-<header>
-<Header />
-<Work />
-</header>
+    <div><Nav /></div>
+    <div><Header /></div>
+    <div><Work /></div>
+
 <div>
 
 </div>

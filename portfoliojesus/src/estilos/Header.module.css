@@ -1,7 +1,11 @@
 .parrallax img{
-    height: 550px;
-    background-position:50% 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+    height: 800px;
+    width:1350px;
+    
+}
+.centrado{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
