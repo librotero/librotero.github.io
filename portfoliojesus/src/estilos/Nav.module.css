@@ -41,6 +41,8 @@ letter-spacing: 2px;
 
 #header ul li a:hover,
 #header ul li a:active{
- background: rgb(2, 153, 253);
- color: black; 
+ background: rgb(0, 214, 203);
+ color: rgb(255, 255, 255); 
+ padding: 1vw;
+ transition: .5s;
 }

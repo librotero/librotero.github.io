@@ -2,6 +2,7 @@ import './App.css';
 import Nav from "./Componenetes/Nav"
 import Header from "./Componenetes/Header"
 import Work from  "./Componenetes/Work";
+import About from "./Componenetes/About"
 
 
 function App() {
@@ -9,11 +10,13 @@ function App() {
     <div className="App">
     <div><Nav /></div>
     <div><Header /></div>
+
+    <div className="Espacio"></div>
+
     <div><Work /></div>
+    <div className="Espacio"></div>
 
-<div>
-
-</div>
+    <div><About/></div>
     </div>
   );
 }

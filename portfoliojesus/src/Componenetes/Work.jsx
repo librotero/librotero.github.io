@@ -4,7 +4,7 @@ import s from '../estilos/Work.module.css'
 export default function Work(props){
     return(
         <div id={s.galeria}>
-        <div class="container text-center pt-10">
+        <div class={s.container}>
             <h1>Mi trabajo</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim laborum ut fuga beatae. Suscipit temporibus explicabo beatae dolore hic minus? Architecto blanditiis perspiciatis voluptatum dolor voluptates, corporis vitae distinctio quidem!</p>
 
@@ -28,6 +28,7 @@ export default function Work(props){
             
             </div>
         </div>
+        <a>Ver más</a>
     </div>
     )
 }

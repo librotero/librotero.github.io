@@ -5,7 +5,7 @@ export default function button(props){
     return(
         <div className={s.button}>
             <button>
-                Conoceme
+                Get to know me
             </button>
         </div>
     )

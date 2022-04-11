@@ -1,5 +1,7 @@
-#galeria .container {
-    padding-top: 2vw;
+.container {
+padding-left: 10vw;
+padding-right: 10vw;
+
 }
 
 #galeria * {
@@ -17,7 +19,7 @@
 
 #galeria .column {
     flex: 25%;
-    padding: 1vw;
+    padding: .5vw;
 }
 
 #galeria img {
@@ -25,7 +27,7 @@
 }
 
 .column img {
-    margin-top: 1vw;
+    margin-top: .5vw;
 }
 
 @media (max-width:660px) {
