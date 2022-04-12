@@ -3,7 +3,9 @@ padding-left: 10vw;
 padding-right: 10vw;
 
 }
-
+.espacioChico{
+    padding: 2vw;
+}
 #galeria * {
     box-sizing: border-box;
 

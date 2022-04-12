@@ -6,7 +6,7 @@
 }
 
 .header {
-    position:fixed;
+    position:absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -15,12 +15,31 @@
     justify-content: space-between;
     align-items: center;
 }
-#header .logo{
-text-decoration: none;
-color: rgb(10, 10, 10);
-font-weight: 700;
-text-transform: uppercase;
-letter-spacing: 2px;
+#header .logo img{
+    width: 60px;
+}
+#header .logo:hover{
+    color:  rgb(0, 60, 255);
+    transition: color 1s;
+    animation: shake 0.82s;
+
+}
+
+@keyframes shake {
+    10%, 90%{
+        transform: translate3d(-1px, 0, 0);
+    }
+    80%, 80% {
+        transform: translate3d(8px, 0, 0);
+
+    }
+    30%, 50%, 70%{
+        transform: translate3d(-4px, 0, 0)
+    }
+    
+    40%, 60%{
+        transform: translate3d(4px, 0, 0)
+    }
 }
 #header ul{
     display: flex;
@@ -34,15 +53,16 @@ letter-spacing: 2px;
 
 #header ul li a{
     text-decoration: none;
+    text-transform: uppercase;
     padding: 6px 15px;
     color: rgb(12, 11, 11);
-    border-radius: 40px;
 }
 
 #header ul li a:hover,
 #header ul li a:active{
- background: rgb(0, 214, 203);
- color: rgb(255, 255, 255); 
- padding: 1vw;
+ color: rgb(0, 60, 255); 
+ padding: .8vw;
  transition: .5s;
+ box-shadow: 0 .5px 0px rgb(0, 60, 255);
+
 }

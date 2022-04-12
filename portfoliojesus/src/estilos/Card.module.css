@@ -1,0 +1,7 @@
+.column {
+    flex: 25%;
+    padding: .5vw;
+}
+.column img {
+    margin-top: .5vw;
+}

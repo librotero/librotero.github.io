@@ -1,61 +1,20 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900');
-#about * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    display: flex;
-    min-height: 5vh;
-    background: rgb(255, 255, 255);
-    font-family: 'Poppins', sans-serif;
-}
-
-#about ul {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    justify-content: center;
-}
-
-#about ul li {
-    position: relative;
-    list-style: none;
-}
-
-#about ul li a {
-    position: relative;
-    list-style: none;
-    font-size: 4em;
-    text-decoration: none;
-    line-height: 1em;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: transparent;
-    -webkit-text-stroke: 1px rgba(119, 119, 119, 0.781);
-}
-
-#about ul li a::before {
-    content: attr(data-text);
-    position: absolute;
-    color: var(--clr);
-    width: 0;
-    overflow: hidden;
-    transition: 1s;
-    border-right: 8px solid var(--clr)
-}
-
-#about ul li a:hover::before {
-    width: 100%;
-    -webkit-text-stroke: 1px var(--clr);
-}
-
-#about img {
-    height: 40vw;
-    width: 30vw;
-}
-
-#about .row {
+.about{
+   text-align: left;
+    padding-left: 8vw;
     padding-top: 10vw;
-    padding-left: 10vw;
-    padding-right: 10vw;
+    padding-bottom: 10vw;
+    background-color: rgb(209, 209, 209);
 }
+.espacio {
+    padding:2.5vw;
+}
+.textAbout{
+    font-size:1.5vw;
+}
+
+.about a:hover{
+    color: rgb(45, 9, 250);
+    transition: .5s;
+}
+
+/*::::::::::::::::::::::::::::::::::::::::::*/
