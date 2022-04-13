@@ -10,8 +10,7 @@ export default function Header(props){
             </div>
             <div className={s.centrado}>
                 <h1>Hello World!</h1>
-                <h3>I'm developer full stack,<br />
-                    Design & Animation</h3>
+                <p>I'm developer full stack, Design & Animation</p>
                 <Button text="Get to know me"/>
             </div>
             <div>

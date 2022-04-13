@@ -3,13 +3,17 @@
     padding-left: 8vw;
     padding-top: 10vw;
     padding-bottom: 10vw;
-    background-color: rgb(209, 209, 209);
+    background-color: rgb(255, 255, 255);
 }
 .espacio {
     padding:2.5vw;
 }
 .textAbout{
     font-size:1.5vw;
+}
+.about h1{
+    font-size: 8vw;
+    color: rgb(63, 63, 63);
 }
 
 .about a:hover{
